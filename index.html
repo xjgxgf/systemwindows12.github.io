@@ -29,6 +29,8 @@
             margin: 0 auto 20px;
             cursor: pointer;
             transition: transform 0.3s;
+            background: #f0f0f0;
+            object-fit: cover;
         }
 
         .avatar:hover {
@@ -56,12 +58,14 @@
 </head>
 <body>
     <div class="container">
-        <!-- 头像 -->
+        <!-- 点击跳转B站 -->
         <a href="https://space.bilibili.com/1593125315?spm_id_from=333.1007.0.0" target="_blank">
-            <img src="images/avatar.jpg" alt="头像" class="avatar">
+            <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=2369307005&spec=640" 
+                 alt="我的头像"
+                 class="avatar"
+                 loading="lazy">
         </a>
 
-        <!-- 个人介绍 -->
         <h1>我是[你的名字]</h1>
         
         <div class="section">
