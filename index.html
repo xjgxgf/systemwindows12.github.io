@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .avatar:hover {
+            transform: scale(1.1);
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .section {
+            margin: 30px 0;
+        }
+
+        a {
+            color: #00a1d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头像 -->
+        <a href="https://space.bilibili.com/1593125315?spm_id_from=333.1007.0.0" target="_blank">
+            <img src="images/avatar.jpg" alt="头像" class="avatar">
+        </a>
+
+        <!-- 个人介绍 -->
+        <h1>我是[你的名字]</h1>
+        
+        <div class="section">
+            <h2>📌 关于我</h2>
+            <p>这里写你的个人简介，可以包括：</p>
+            <ul>
+                <li>所在地区/学校/公司</li>
+                <li>专业/职业领域</li>
+                <li>兴趣爱好</li>
+                <li>其他想展示的信息</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>💻 技术栈</h2>
+            <ul>
+                <li>编程语言：HTML/CSS/JavaScript</li>
+                <li>框架：React/Vue</li>
+                <li>其他：Git/Photoshop</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🎯 项目展示</h2>
+            <ul>
+                <li><a href="#">项目1名称（可添加链接）</a></li>
+                <li><a href="#">项目2名称（可添加链接）</a></li>
+                <li><a href="#">项目3名称（可添加链接）</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
